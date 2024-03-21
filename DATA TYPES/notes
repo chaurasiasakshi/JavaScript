@@ -1,0 +1,30 @@
+javascript is weakly typed language 
+interperate variables
+means  that it allows you to assign any type of value and perform operations on them without knowing their types.
+
+In strongly typed languages, like Java or C , C#, Java the compiler checks if an operation can be performed on a variable before executing it.
+the compiler checks the data types at compile time and will give an error if there's a
+
+DevTools > Console
+let name; [variable declaration]
+let name = "John Doe"; [initialization]
+when assigned at declaration time we call it "initialisation"
+
+Data Types - 
+1. Number
+2. String
+3. Boolean
+4. Object 
+5. Array 
+6. Null (used to denote absence of value) (Special Object)
+7. Undefined (if nothing  is assigned to variable)
+
+scope  - where the variable can be accessed in code
+var no block scope is created can be redeclared 
+
+let all  block scoped, cannot be redeclared within same block but different blocks can have same variable names
+
+const also has block scope but once declared cannot be changed
+
+hoisting- JavaScript moves declarations to the top of the script even if they are not initialized yet
+console.log(name); // undefined because hoisted so it prints 'undefined' before initialization
