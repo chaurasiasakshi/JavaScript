@@ -26,5 +26,35 @@ let all  block scoped, cannot be redeclared within same block but different bloc
 
 const also has block scope but once declared cannot be changed
 
+camelCase-javascript prefers camel case in variable names
+
+UpperCamelCase - some variables like Class will use upper camel case
+
+String literal using + and backticks
+
+Mutating vs Non-Mutating methods
+
+M - chaged variable which called it 
+exmaple - array.push()
+
+NM - doesn't changes variable which called it 
+exmaple - .indexOf()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 hoisting- JavaScript moves declarations to the top of the script even if they are not initialized yet
 console.log(name); // undefined because hoisted so it prints 'undefined' before initialization
