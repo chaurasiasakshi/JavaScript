@@ -30,7 +30,7 @@ camelCase-javascript prefers camel case in variable names
 
 UpperCamelCase - some variables like Class will use upper camel case
 
-String literal using + and backticks
+String literal using + operator and backticks
 
 Mutating vs Non-Mutating methods
 
